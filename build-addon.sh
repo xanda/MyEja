@@ -14,7 +14,7 @@ then
 fi
 
 zip ../MyEja.xpi dictionaries/* install.rdf icon.png
-rm dictionaries/*
+rm dictionaries/*.dic
 rm install.rdf
 
 echo ""
