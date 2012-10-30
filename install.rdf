@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+        <em:type>2</em:type> <!-- 2 : Extension -->
+        <em:id>MyEja@xanda.org</em:id>
+        <em:version>0.6.2</em:version>
+        <em:name>MyEja</em:name>
+        <em:description>Bahasa Malaysia dictionary for spell-checking in Firefox and Thunderbird</em:description>
+        <em:creator>Adnan Mohd Shukor</em:creator>
+        <em:contributor>Farah Ramlee</em:contributor>
+        <em:contributor>Muhammad Syafiq Mazli</em:contributor>
+        <em:contributor>Philip Chee</em:contributor>
+        <em:contributor>Mozilla Malaysia Community</em:contributor>
+        <em:unpack>true</em:unpack>
+        <em:targetApplication>
+            <Description>
+                <!-- Firefox -->
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>2.0a1</em:minVersion>
+                <em:maxVersion>13.0a1</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+        <em:targetApplication>
+            <Description>
+                <!-- Thunderbird -->
+                <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+                <em:minVersion>2.0a1</em:minVersion>
+                <em:maxVersion>13.0a1</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+        <em:targetApplication>
+            <Description>
+                <!-- SeaMonkey -->
+                <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+                <em:minVersion>2.0a</em:minVersion>
+                <em:maxVersion>2.10a1</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+    </Description>
+</RDF>
